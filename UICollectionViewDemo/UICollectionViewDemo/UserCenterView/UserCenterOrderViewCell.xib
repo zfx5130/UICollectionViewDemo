@@ -8,15 +8,29 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UserCenterOrderViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="384" height="23"/>
+            <rect key="frame" x="0.0" y="0.0" width="452" height="150"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="384" height="23"/>
+                <rect key="frame" x="0.0" y="0.0" width="452" height="150"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGs-x1-PKA">
+                        <rect key="frame" x="0.0" y="140" width="452" height="10"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="qlS-mQ-OKx"/>
+                        </constraints>
+                    </view>
+                </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-            <size key="customSize" width="384" height="23"/>
-            <point key="canvasLocation" x="410" y="411.5"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aGs-x1-PKA" secondAttribute="trailing" id="ZyH-ln-5nq"/>
+                <constraint firstItem="aGs-x1-PKA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cg6-Zk-W54"/>
+                <constraint firstAttribute="bottom" secondItem="aGs-x1-PKA" secondAttribute="bottom" id="uDK-Ri-jju"/>
+            </constraints>
+            <size key="customSize" width="452" height="201"/>
+            <point key="canvasLocation" x="387" y="372"/>
         </collectionViewCell>
     </objects>
 </document>
