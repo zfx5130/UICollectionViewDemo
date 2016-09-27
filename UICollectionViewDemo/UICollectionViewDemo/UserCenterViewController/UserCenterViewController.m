@@ -35,7 +35,7 @@ UICollectionViewDelegateFlowLayout>
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.stretchFlowLayout.headerReferenceSize =
-    CGSizeMake([UIScreen mainScreen].bounds.size.width, [self getSizeWithCurrentSize:250.0f]);
+    CGSizeMake([UIScreen mainScreen].bounds.size.width, [self getSizeWithCurrentSize:150.0f]);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -130,6 +130,9 @@ referenceSizeForHeaderInSection:(NSInteger)section {
 - (CGSize)collectionView:(UICollectionView *)collectionView
                   layout:(UICollectionViewLayout *)collectionViewLayout
   sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (!indexPath.section) {
+        return CGSizeMake([UIScreen mainScreen].bounds.size.width, 100);
+    }
     return CGSizeMake(([UIScreen mainScreen].bounds.size.width - 30.0f) /  2 - 2, 100);
 }
 
@@ -137,9 +140,9 @@ referenceSizeForHeaderInSection:(NSInteger)section {
                         layout:(UICollectionViewLayout *)collectionViewLayout
         insetForSectionAtIndex:(NSInteger)section {
     if (!section) {
-        return UIEdgeInsetsMake(10, 10, 10, 10);
+        return UIEdgeInsetsMake(0, 0, 10, 0);
     }
-    return UIEdgeInsetsMake(10, 10, 10, 10);
+    return UIEdgeInsetsMake(0, 10, 10, 10);
 }
 
 @end
