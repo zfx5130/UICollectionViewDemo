@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="148"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_image" translatesAutoresizingMaskIntoConstraints="NO" id="q5j-Su-WxD">
+                    <rect key="frame" x="0.0" y="0.0" width="339" height="148"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="q5j-Su-WxD" secondAttribute="bottom" id="3tX-8r-pJb"/>
+                <constraint firstAttribute="trailing" secondItem="q5j-Su-WxD" secondAttribute="trailing" id="URH-91-zIN"/>
+                <constraint firstItem="q5j-Su-WxD" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="bnt-kG-f0W"/>
+                <constraint firstItem="q5j-Su-WxD" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="lPT-Vc-un1"/>
+            </constraints>
+            <point key="canvasLocation" x="465.5" y="476"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="test_image" width="964" height="264"/>
+    </resources>
+</document>

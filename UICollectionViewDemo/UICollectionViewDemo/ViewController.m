@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UserCenterViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)userCenterButtonWasPressed:(UIButton *)sender {
+    UserCenterViewController *viewController = [[UserCenterViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 @end

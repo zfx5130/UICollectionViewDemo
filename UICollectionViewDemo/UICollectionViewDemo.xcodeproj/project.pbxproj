@@ -15,6 +15,15 @@
 		849068801D9A0F5100485DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8490687E1D9A0F5100485DB9 /* LaunchScreen.storyboard */; };
 		8490688B1D9A0F5100485DB9 /* UICollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490688A1D9A0F5100485DB9 /* UICollectionViewDemoTests.m */; };
 		849068961D9A0F5100485DB9 /* UICollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068951D9A0F5100485DB9 /* UICollectionViewDemoUITests.m */; };
+		849068A71D9A11BF00485DB9 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068A51D9A11BF00485DB9 /* UserCenterViewController.m */; };
+		849068A81D9A11BF00485DB9 /* UserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068A61D9A11BF00485DB9 /* UserCenterViewController.xib */; };
+		849068BF1D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068B81D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m */; };
+		849068C01D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068BA1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m */; };
+		849068C11D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068BB1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib */; };
+		849068C21D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068BD1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m */; };
+		849068C31D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068BE1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib */; };
+		849068C71D9A24C500485DB9 /* UserCenterBannerReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */; };
+		849068C81D9A24C500485DB9 /* UserCenterBannerReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,20 @@
 		849068911D9A0F5100485DB9 /* UICollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849068951D9A0F5100485DB9 /* UICollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		849068971D9A0F5100485DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849068A41D9A11BF00485DB9 /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		849068A51D9A11BF00485DB9 /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
+		849068A61D9A11BF00485DB9 /* UserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterViewController.xib; sourceTree = "<group>"; };
+		849068B71D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchHeaderCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		849068B81D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchHeaderCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		849068B91D9A1E9E00485DB9 /* UserCenterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterCollectionReusableView.h; sourceTree = "<group>"; };
+		849068BA1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterCollectionReusableView.m; sourceTree = "<group>"; };
+		849068BB1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterCollectionReusableView.xib; sourceTree = "<group>"; };
+		849068BC1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderCollectionViewCell.h; sourceTree = "<group>"; };
+		849068BD1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderCollectionViewCell.m; sourceTree = "<group>"; };
+		849068BE1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserOrderCollectionViewCell.xib; sourceTree = "<group>"; };
+		849068C41D9A24C500485DB9 /* UserCenterBannerReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterBannerReusableView.h; sourceTree = "<group>"; };
+		849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterBannerReusableView.m; sourceTree = "<group>"; };
+		849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterBannerReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,8 @@
 		8490686F1D9A0F5100485DB9 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				849068B61D9A1E4800485DB9 /* UserCenterView */,
+				849068A31D9A116000485DB9 /* UserCenterViewController */,
 				849068731D9A0F5100485DB9 /* AppDelegate.h */,
 				849068741D9A0F5100485DB9 /* AppDelegate.m */,
 				849068761D9A0F5100485DB9 /* ViewController.h */,
@@ -138,6 +163,34 @@
 				849068971D9A0F5100485DB9 /* Info.plist */,
 			);
 			path = UICollectionViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		849068A31D9A116000485DB9 /* UserCenterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849068A41D9A11BF00485DB9 /* UserCenterViewController.h */,
+				849068A51D9A11BF00485DB9 /* UserCenterViewController.m */,
+				849068A61D9A11BF00485DB9 /* UserCenterViewController.xib */,
+			);
+			path = UserCenterViewController;
+			sourceTree = "<group>";
+		};
+		849068B61D9A1E4800485DB9 /* UserCenterView */ = {
+			isa = PBXGroup;
+			children = (
+				849068B71D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.h */,
+				849068B81D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m */,
+				849068B91D9A1E9E00485DB9 /* UserCenterCollectionReusableView.h */,
+				849068BA1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m */,
+				849068BB1D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib */,
+				849068BC1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.h */,
+				849068BD1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m */,
+				849068BE1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib */,
+				849068C41D9A24C500485DB9 /* UserCenterBannerReusableView.h */,
+				849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */,
+				849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */,
+			);
+			path = UserCenterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849068A81D9A11BF00485DB9 /* UserCenterViewController.xib in Resources */,
 				849068801D9A0F5100485DB9 /* LaunchScreen.storyboard in Resources */,
+				849068C31D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib in Resources */,
 				8490687D1D9A0F5100485DB9 /* Assets.xcassets in Resources */,
 				8490687B1D9A0F5100485DB9 /* Main.storyboard in Resources */,
+				849068C81D9A24C500485DB9 /* UserCenterBannerReusableView.xib in Resources */,
+				849068C11D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849068C21D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m in Sources */,
+				849068BF1D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m in Sources */,
+				849068A71D9A11BF00485DB9 /* UserCenterViewController.m in Sources */,
 				849068781D9A0F5100485DB9 /* ViewController.m in Sources */,
+				849068C01D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m in Sources */,
+				849068C71D9A24C500485DB9 /* UserCenterBannerReusableView.m in Sources */,
 				849068751D9A0F5100485DB9 /* AppDelegate.m in Sources */,
 				849068721D9A0F5100485DB9 /* main.m in Sources */,
 			);
