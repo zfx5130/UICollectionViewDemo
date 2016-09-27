@@ -24,6 +24,12 @@
 		849068C31D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068BE1D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib */; };
 		849068C71D9A24C500485DB9 /* UserCenterBannerReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */; };
 		849068C81D9A24C500485DB9 /* UserCenterBannerReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */; };
+		849068CC1D9A42D300485DB9 /* UserCenterOrderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068CA1D9A42D300485DB9 /* UserCenterOrderViewCell.m */; };
+		849068CD1D9A42D300485DB9 /* UserCenterOrderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068CB1D9A42D300485DB9 /* UserCenterOrderViewCell.xib */; };
+		849068D11D9A430D00485DB9 /* UserCenterOthersViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068CF1D9A430D00485DB9 /* UserCenterOthersViewCell.m */; };
+		849068D21D9A430D00485DB9 /* UserCenterOthersViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068D01D9A430D00485DB9 /* UserCenterOthersViewCell.xib */; };
+		849068D61D9A432800485DB9 /* UserCenterSingleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849068D41D9A432800485DB9 /* UserCenterSingleViewCell.m */; };
+		849068D71D9A432800485DB9 /* UserCenterSingleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849068D51D9A432800485DB9 /* UserCenterSingleViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,15 @@
 		849068C41D9A24C500485DB9 /* UserCenterBannerReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterBannerReusableView.h; sourceTree = "<group>"; };
 		849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterBannerReusableView.m; sourceTree = "<group>"; };
 		849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterBannerReusableView.xib; sourceTree = "<group>"; };
+		849068C91D9A42D300485DB9 /* UserCenterOrderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterOrderViewCell.h; sourceTree = "<group>"; };
+		849068CA1D9A42D300485DB9 /* UserCenterOrderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterOrderViewCell.m; sourceTree = "<group>"; };
+		849068CB1D9A42D300485DB9 /* UserCenterOrderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterOrderViewCell.xib; sourceTree = "<group>"; };
+		849068CE1D9A430D00485DB9 /* UserCenterOthersViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterOthersViewCell.h; sourceTree = "<group>"; };
+		849068CF1D9A430D00485DB9 /* UserCenterOthersViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterOthersViewCell.m; sourceTree = "<group>"; };
+		849068D01D9A430D00485DB9 /* UserCenterOthersViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterOthersViewCell.xib; sourceTree = "<group>"; };
+		849068D31D9A432800485DB9 /* UserCenterSingleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterSingleViewCell.h; sourceTree = "<group>"; };
+		849068D41D9A432800485DB9 /* UserCenterSingleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterSingleViewCell.m; sourceTree = "<group>"; };
+		849068D51D9A432800485DB9 /* UserCenterSingleViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterSingleViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +204,15 @@
 				849068C41D9A24C500485DB9 /* UserCenterBannerReusableView.h */,
 				849068C51D9A24C500485DB9 /* UserCenterBannerReusableView.m */,
 				849068C61D9A24C500485DB9 /* UserCenterBannerReusableView.xib */,
+				849068C91D9A42D300485DB9 /* UserCenterOrderViewCell.h */,
+				849068CA1D9A42D300485DB9 /* UserCenterOrderViewCell.m */,
+				849068CB1D9A42D300485DB9 /* UserCenterOrderViewCell.xib */,
+				849068CE1D9A430D00485DB9 /* UserCenterOthersViewCell.h */,
+				849068CF1D9A430D00485DB9 /* UserCenterOthersViewCell.m */,
+				849068D01D9A430D00485DB9 /* UserCenterOthersViewCell.xib */,
+				849068D31D9A432800485DB9 /* UserCenterSingleViewCell.h */,
+				849068D41D9A432800485DB9 /* UserCenterSingleViewCell.m */,
+				849068D51D9A432800485DB9 /* UserCenterSingleViewCell.xib */,
 			);
 			path = UserCenterView;
 			sourceTree = "<group>";
@@ -299,7 +323,10 @@
 				849068A81D9A11BF00485DB9 /* UserCenterViewController.xib in Resources */,
 				849068801D9A0F5100485DB9 /* LaunchScreen.storyboard in Resources */,
 				849068C31D9A1E9E00485DB9 /* UserOrderCollectionViewCell.xib in Resources */,
+				849068CD1D9A42D300485DB9 /* UserCenterOrderViewCell.xib in Resources */,
+				849068D71D9A432800485DB9 /* UserCenterSingleViewCell.xib in Resources */,
 				8490687D1D9A0F5100485DB9 /* Assets.xcassets in Resources */,
+				849068D21D9A430D00485DB9 /* UserCenterOthersViewCell.xib in Resources */,
 				8490687B1D9A0F5100485DB9 /* Main.storyboard in Resources */,
 				849068C81D9A24C500485DB9 /* UserCenterBannerReusableView.xib in Resources */,
 				849068C11D9A1E9E00485DB9 /* UserCenterCollectionReusableView.xib in Resources */,
@@ -329,11 +356,14 @@
 			files = (
 				849068C21D9A1E9E00485DB9 /* UserOrderCollectionViewCell.m in Sources */,
 				849068BF1D9A1E9E00485DB9 /* StretchHeaderCollectionViewFlowLayout.m in Sources */,
+				849068CC1D9A42D300485DB9 /* UserCenterOrderViewCell.m in Sources */,
 				849068A71D9A11BF00485DB9 /* UserCenterViewController.m in Sources */,
 				849068781D9A0F5100485DB9 /* ViewController.m in Sources */,
+				849068D11D9A430D00485DB9 /* UserCenterOthersViewCell.m in Sources */,
 				849068C01D9A1E9E00485DB9 /* UserCenterCollectionReusableView.m in Sources */,
 				849068C71D9A24C500485DB9 /* UserCenterBannerReusableView.m in Sources */,
 				849068751D9A0F5100485DB9 /* AppDelegate.m in Sources */,
+				849068D61D9A432800485DB9 /* UserCenterSingleViewCell.m in Sources */,
 				849068721D9A0F5100485DB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
