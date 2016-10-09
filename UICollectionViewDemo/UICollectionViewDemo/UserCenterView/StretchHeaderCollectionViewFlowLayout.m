@@ -30,9 +30,12 @@
                 CGSize headerSize = [self headerReferenceSize];
                 CGRect headRect = [attrs frame];
                 headRect.size.height = headerSize.height + deltaY;
-                headRect.size.width = headerSize.width + deltaY;
+                
+                //水平方向不该变位置，如果是图片，可以取消注释。
+                //headRect.size.width = headerSize.width + deltaY;
+                //headRect.origin.x = headRect.origin.x - deltaY/2;
                 headRect.origin.y = headRect.origin.y - deltaY;
-                headRect.origin.x = headRect.origin.x - deltaY/2;
+                
                 [attrs setFrame:headRect];
                 break;
             }
